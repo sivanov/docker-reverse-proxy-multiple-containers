@@ -2,6 +2,7 @@ version: '3'
 services:
   app:
     image: nginx:1.25
+    # image: nginx:alpine # for defauil last stable version
     volumes:
       - ./site1/:/usr/share/nginx/html/
     expose:

@@ -7,6 +7,9 @@ Version used in this example
 - Docker Compose version v2.18.1
 - nginx:1.25 Released 23 May 2023 https://hub.docker.com/_/nginx
 
+Optional: added in each Dcokerfile and docker-compose.yml variant for Nginx Alpine optimized smaller image
+Regular Nginx image is with size around of 143MB vs alpine image around 41MB
+![](./screenshots/nginx-vs-alpine-version-size-comparison.png)
 
 Notice docker-compose no longer receives updates 
 More info: https://docs.docker.com/compose/migrate/
